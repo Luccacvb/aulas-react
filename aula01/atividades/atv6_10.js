@@ -103,7 +103,13 @@ let pesos = [55, 60, 65, 70, 75, 77, 78, 79, 80, 80]
 let sexos = ['m', 'f', 'm', 'f', 'm', 'm', 'f', 'm', 'f', 'm']
 
 let totalMasc = 0
-totalFem = 0
+let totalFem = 0
+
+let totalIdH = 0
+let qtdH = 0
+
+let totalPesoM = 0
+let qtdM = 0
 
 for (let i = 0; i < idades.length; i++) {
     const idade = idades[i]
@@ -117,5 +123,27 @@ for (let i = 0; i < idades.length; i++) {
     if (sexo == 'f') {
         totalFem++
     }
+
+    if (sexo == 'm') {
+        totalIdH += idade
+        qtdH++
+    }
+
+    if (sexo == 'f') {
+        totalPesoM += peso
+        qtdM++
+    }
+
 }
-alert(totalMasc)
+
+mediaIdH = totalIdH / qtdH
+mediaPesoM = totalPesoM / qtdM
+
+
+alert(`
+    Total de homens é ${totalMasc}
+    Total de mulheres é ${totalFem}
+    Média de idade dos homens é ${mediaIdH} anos
+    Média do peso das mulheres é ${mediaPesoM}Kg
+
+`)
