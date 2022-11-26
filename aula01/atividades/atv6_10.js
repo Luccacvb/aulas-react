@@ -106,10 +106,10 @@ let totalMasc = 0
 let totalFem = 0
 
 let totalIdH = 0
-let qtdH = 0
+
 
 let totalPesoM = 0
-let qtdM = 0
+
 
 for (let i = 0; i < idades.length; i++) {
     const idade = idades[i]
@@ -126,18 +126,16 @@ for (let i = 0; i < idades.length; i++) {
 
     if (sexo == 'm') {
         totalIdH += idade
-        qtdH++
     }
 
     if (sexo == 'f') {
         totalPesoM += peso
-        qtdM++
     }
 
 }
 
-mediaIdH = totalIdH / qtdH
-mediaPesoM = totalPesoM / qtdM
+const mediaIdH = totalIdH / totalMasc
+const mediaPesoM = totalPesoM / totalFem
 
 
 alert(`
