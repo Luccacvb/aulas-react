@@ -12,10 +12,12 @@ function apresentarMenu() {
         cadastrar()
         apresentarMenu()
     }
+
     if (valor == 2) {
         pesquisar()
         apresentarMenu()
     }
+
     if (valor == 3) {
         excluir()
         apresentarMenu()
@@ -47,6 +49,7 @@ function cadastrar() {
             cadastro = true
         }
     })
+
     if (cadastro === false) {
         baseDeVeiculos.push(veiculos)
         alert('automóvel adicionado com sucesso!')
@@ -103,4 +106,5 @@ function excluir() {
 function sair() {
     alert('Ate a próxima!')
 }
+
 apresentarMenu()
