@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.m5 {
+    margin-bottom: 10px;
+}
+
+.car {
+    margin-left: 10px;
+}
+.tabled{
+    background-color: cadetblue;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    border: 1px solid green;
+    min-width: 120px;
+    height: 18px;
+}
+
+th {
+    min-width: 120px;
+    height: 18px;
+}
