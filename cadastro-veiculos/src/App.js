@@ -99,7 +99,7 @@ function App() {
           Cadastrar veículo
         </button>
         <button className='m5 car' onClick={pesquisar}>
-          Pesquisae veículos
+          Pesquisar veículo
         </button>
         <button className='m5 car' onClick={deletar}>
           Deletar todos veículos
