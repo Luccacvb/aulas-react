@@ -51,8 +51,8 @@ function App() {
         pesquisa === veiculo.modelo
       ) {
         pesquisado += `
-        Marca: ${veiculo.marca}, 
-        Modelo: ${veiculo.modelo}, 
+        Marca: ${veiculo.marca}
+        Modelo: ${veiculo.modelo}
         Placa: ${veiculo.placa}
         `
       }
