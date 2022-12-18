@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Button, Form, InputGroup, Table } from 'react-bootstrap';
-import './App.css';
 import { BsTrash } from 'react-icons/bs';
+import './App.css';
+
 
 function App() {
   const [placa, setPlaca] = useState('')
@@ -64,6 +65,7 @@ function App() {
   return (
     <>
       <div className='container'>
+        <h1 className='th'> Cadastro de veículos seminovos</h1>
         <InputGroup className="mb-2 mt-5">
           <Form.Control
             value={placa}
@@ -131,9 +133,6 @@ function App() {
                 )
               })
             }
-
-
-
           </tbody>
         </Table>
       </div>
