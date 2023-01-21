@@ -1,0 +1,46 @@
+.th {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  color: rgba(54, 53, 53, 1);
+  font-style: italic;
+}
+
+.bt {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.fi {
+  display: flex;
+  justify-content: center;
+  margin-left: 385px;
+  margin-top: 16px;
+}
+
+.ca {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 16px;
+}
+
+.mr {
+  margin-right: 1150px;
+}
+
+.white-content {
+  background: #606060;
+}
+
+.dark {
+  float: right;
+  margin-top: -20px;
+  margin-right: 100px;
+}
+
+.tot {
+  float: right;
+  /* margin-top: -20px; */
+  margin-right: 100px;
+}
